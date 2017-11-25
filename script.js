@@ -79,3 +79,19 @@ new Vue({
     }
   }
 })
+
+new Vue({
+  el: '#app5',
+  data: {
+    available: false,
+    nearby: false
+  },
+  computed: {
+    compClasses: function () {
+      return {
+        available: this.available,
+        nearby: this.nearby
+      }
+    }
+  }
+})
