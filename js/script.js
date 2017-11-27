@@ -95,3 +95,24 @@ new Vue({
     }
   }
 })
+
+new Vue({
+  el: '#app6',
+  data: {
+    error: false,
+    success: false
+  },
+
+})
+
+new Vue({
+  el: '#app7',
+  data: {
+    characters: ['Mario', 'Luigi', 'Yoshi', 'Bowser'],
+    ninjas: [
+      { name: 'One', age: 25 },
+      { name: 'Two', age: 35 },
+      { name: 'Three', age: 55 },
+    ]
+  }
+})
