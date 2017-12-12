@@ -28,8 +28,11 @@
     </div>
 
     <h1>Refs</h1>
-    <div id="app4">
-
+    <div id="app5">
+      <input type="text" ref="input" />
+      <button v-on:click="readRefs">Submit!</button>
+      <p>Your fav food: {{ output }}</p>
+      <div ref="test">hello</div>
     </div>
 
     <script src="js/script2.js"></script>
